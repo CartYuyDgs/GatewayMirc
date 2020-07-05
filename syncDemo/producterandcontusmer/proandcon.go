@@ -36,7 +36,7 @@ type (
 )
 
 func (p *ProducerImpl) makeDuck(b *Bascket) {
-	fmt.Println("aaaaa")
+	//fmt.Println("aaaaa")
 	for {
 
 		for b.ducks.Len() > 0 {
